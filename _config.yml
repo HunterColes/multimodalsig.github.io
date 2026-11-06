@@ -85,3 +85,5 @@ exclude:
   - LICENSE
   - tools
   - node_modules
+  - Dockerfile
+  - docker-compose.yml

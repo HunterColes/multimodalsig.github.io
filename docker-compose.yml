@@ -1,0 +1,8 @@
+services:
+  site:
+    build: .
+    ports:
+      - "4000:4000"     # the site
+      - "35729:35729"   # livereload
+    volumes:
+      - .:/site         # edits on your Mac show up without rebuilding the image
