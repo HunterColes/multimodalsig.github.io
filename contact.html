@@ -138,7 +138,7 @@ description: >-
     var lat = parseFloat(el.getAttribute("data-lat"));
     var lon = parseFloat(el.getAttribute("data-lon"));
     var map = L.map(el, { scrollWheelZoom: false, attributionControl: false }).setView([lat, lon], 16);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", { maxZoom: 19 }).addTo(map);
+    L.tileLayer("https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png?key=cb1_5339_1_514eb60e6dec8650961fb298", { maxZoom: 19 }).addTo(map);
     L.marker([lat, lon]).addTo(map);
   })();
 </script>
