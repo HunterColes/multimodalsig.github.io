@@ -329,7 +329,7 @@ team:
   - name: Hunter Coles
     role: MSc Student
     photo: assets/img/team/hunter.jpg
-    short: Time-of-flight range imaging for SLAM; lightweight, real-time neural networks on edge hardware.
+    short: Time-of-flight range imaging for SLAM; lightweight, real-time neural networks.
     bio: >-
       Hunter is a graduate student in Geomatics Engineering at the University of Calgary,
       where he also completed his BSc in Software Engineering. He came to SLAM through
